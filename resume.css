@@ -1,0 +1,75 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#0cafa9;
+}
+
+@media screen and (min-width: 200px) {
+  header {
+    color:#963f2d;
+    display: grid;
+    justify-content: center;
+    background-color: #fbe7d3; 
+    padding:5px;
+  } 
+  .header-img {
+    height:10rem;
+    margin-top: 1.5rem;
+    border-radius: 5rem;
+    border-bottom:none;
+  }
+  .header-name{
+    border: none;
+    padding:20px;
+  }
+
+  h1{
+    text-align: center;
+    border:2px solid #963f2d;
+    border-top: 0rem;
+    border-left: 0rem;
+    border-right: 0rem;
+    padding: 1rem;
+  }
+
+  .resume-intro-section{
+    padding:9px;
+  }
+
+  .resume-intro-section h1{
+    justify-content: center;
+    border: 2px solid #ed6f00;
+    border-top:0rem;
+    border-left:0rem;
+    border-right:0rem;
+  }
+
+  .resume-content-left{
+    text-align: center;
+    border:none;
+    color: #bed8cf;
+    padding:1rem;
+    background-color: #0cafa9;
+  }
+
+  .resume-content-left ul{
+    list-style: none;
+  }
+ .resume-content-left h1{
+   border: 1px solid #bed8cf;
+   border-top:0rem;
+   border-left: 0rem;
+   border-right: 0rem;
+ }
+
+ .resume-content-right{
+   padding:1rem;
+ }
+}
+
+@media screen and (min-width: 992px){
+  .resume-content-desktop-view{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 3rem;
+  }
+}
